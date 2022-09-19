@@ -1,0 +1,33 @@
+import org.junit.Before;
+import org.junit.After;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class RecursiveMethodTest {
+
+@Test
+public void testReversingOfString() {
+   String test = "Hello";
+  String result = RecurseiveMethod.reverseStringRecursive(0,test);
+  assertNotEquals(test, result);
+  assertEquals("olleH", result);
+}
+
+private static int test = 0;
+
+public static void RecurseiveMethod(int x) {
+    test = x;
+}
+
+public static boolean isRecursive(int x) {
+  if (x > 0) {
+    return true;
+  } else
+    return false;
+}
+@Test
+public void testIfMethodIsRecursive() {
+  String testStr = "Test";
+  String result = RecurseiveMethod.reverseStringRecursive(RecurseiveMethod.test,testStr);
+  assertEquals(4,RecurseiveMethod.test);
+}
