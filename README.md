@@ -7,7 +7,9 @@ You are given a `String` object where your task is to simply reverse the string 
 // Output:
 "dlroW olleH"
 ```
+Using the `reverseStringRecursive()` please increment the `int` parameter and input your string value for the `String` parameter.
 
+In `reverseStringRecursive()`'s body please implemnt your **recursive** logic for reverseing a `String`.
 
 
 ## Testing
