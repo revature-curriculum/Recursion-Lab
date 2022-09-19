@@ -24,10 +24,8 @@ class RecurseiveMethod {
 
   public static void main(String[] args) {
     String input = "Hello World";
-    System.out.println();
-    System.out.println(reverseStringRecursive(test, input));
-    System.out.println("Is reverseStringRecursive() recursive? - "+isRecursive(test));
-    System.out.println();
+    reverseStringRecursive(x, s);
+
 
   }
 }
